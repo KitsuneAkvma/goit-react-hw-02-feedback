@@ -2,6 +2,6 @@ import React from 'react';
 
 import { StyledNotification } from './Notification.styled';
 
-export function Notification() {
-  return <StyledNotification>No feedback been given</StyledNotification>;
-}
+export const Notification = () => {
+  return <StyledNotification>No feedback has been given</StyledNotification>;
+};
